@@ -1,0 +1,15 @@
+namespace skymarlin.game.protocol;
+
+enum PlayerMovementType: uint8 {
+    STANDING_WALK, STANDING_RUN, STANDING_SPRINT,
+    CROUCH_WALK, CROUCH_RUN, CROUCH_SPRINT,
+    CRAWLING,
+    SWIMMING,
+}
+
+table PlayerMovement {
+    player_id: uint32;
+    type: PlayerMovementType;
+}
+
+root_type PlayerMovement;

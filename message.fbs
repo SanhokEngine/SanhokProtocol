@@ -1,0 +1,14 @@
+include "player_session_enter.fbs";
+include "player_session_exit.fbs";
+
+namespace skymarlin.game.protocol;
+
+union ProtocolType {
+    PlayerMovement,
+}
+
+table Protocol {
+    protocol: ProtocolType;
+}
+
+root_type Protocol;
