@@ -1,6 +1,7 @@
-namespace skymarlin.game.protocol;
+namespace sanhok.game.protocol;
 
 enum PlayerMovementType: uint8 {
+    IDLE,
     STANDING_WALK, STANDING_RUN, STANDING_SPRINT,
     CROUCH_WALK, CROUCH_RUN, CROUCH_SPRINT,
     CRAWLING,

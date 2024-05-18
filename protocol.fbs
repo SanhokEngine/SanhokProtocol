@@ -1,7 +1,6 @@
-include "player_session_enter.fbs";
-include "player_session_exit.fbs";
+include "player_movement.fbs";
 
-namespace skymarlin.game.protocol;
+namespace sanhok.game.protocol;
 
 union ProtocolType {
     PlayerMovement,
