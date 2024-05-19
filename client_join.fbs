@@ -1,0 +1,7 @@
+namespace sanhok.game.protocol;
+
+table ClientJoin {
+    client_id: uint32;
+}
+
+root_type ClientJoin;
