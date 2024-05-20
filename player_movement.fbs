@@ -8,9 +8,23 @@ enum PlayerMovementType: uint8 {
     SWIMMING,
 }
 
+enum PlayerMovementDirection: uint8 {
+    FORWARD, BACKWARD, LEFT, RIGHT
+}
+
+struct Vector3 {
+    x: float32;
+    y: float32;
+    z: float32;
+}
+
 table PlayerMovement {
-    player_id: uint32;
-    type: PlayerMovementType;
+    client_id: uint32;
+    movement_type: PlayerMovementType;
+    movement_direction: PlayerMovementDirection;
+    body_diection: Vector3;
+    aim_direction: Vector3;
+    // head_direction: Vector3;
 }
 
 root_type PlayerMovement;
