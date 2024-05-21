@@ -1,0 +1,6 @@
+namespace sanhok.game.protocol;
+
+table PlayerEquipment {
+}
+
+root_type PlayerEquipment;

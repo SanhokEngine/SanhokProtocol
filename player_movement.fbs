@@ -6,6 +6,7 @@ enum PlayerMovementType: uint8 {
     CROUCH_WALK, CROUCH_RUN, CROUCH_SPRINT,
     CRAWLING,
     SWIMMING,
+    FALLING,
 }
 
 enum PlayerMovementDirection: uint8 {
