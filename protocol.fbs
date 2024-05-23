@@ -1,7 +1,7 @@
 include "client_join.fbs";
 include "player_movement.fbs";
 
-namespace sanhok.game.protocol;
+namespace sanhok.protocol;
 
 union ProtocolType {
     ClientJoin,

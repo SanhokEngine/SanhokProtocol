@@ -1,4 +1,4 @@
-namespace sanhok.game.protocol;
+namespace sanhok.protocol;
 
 enum PlayerMovementType: uint8 {
     IDLE,
