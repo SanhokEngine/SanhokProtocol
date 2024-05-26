@@ -1,4 +1,6 @@
-namespace sanhok.protocol;
+include "types.fbs";
+
+namespace sanhok.game.protocol;
 
 enum PlayerMovementType: uint8 {
     IDLE,
@@ -11,12 +13,6 @@ enum PlayerMovementType: uint8 {
 
 enum PlayerMovementDirection: uint8 {
     FORWARD, BACKWARD, LEFT, RIGHT
-}
-
-struct Vector3 {
-    x: float32;
-    y: float32;
-    z: float32;
 }
 
 table PlayerMovement {

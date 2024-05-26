@@ -1,0 +1,12 @@
+namespace sanhok.game.protocol;
+
+struct Vector3 {
+    x: float32;
+    y: float32;
+    z: float32;
+}
+
+struct Zone {
+    id: uint32;
+    multicast_group_address: string;
+}

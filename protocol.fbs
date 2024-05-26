@@ -1,10 +1,14 @@
 include "client_join.fbs";
+include "client_leave.fbs";
+include "player_equipment.fbs";
 include "player_movement.fbs";
 
-namespace sanhok.protocol;
+namespace sanhok.game.protocol;
 
 union ProtocolType {
     ClientJoin,
+    ClientLeave,
+    PlayerEquipment,
     PlayerMovement,
 }
 

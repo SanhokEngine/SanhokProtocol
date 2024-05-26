@@ -1,1 +1,1 @@
-# game-protocol
+# Sanhok Protocol Schemas

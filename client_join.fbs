@@ -1,4 +1,4 @@
-namespace sanhok.protocol;
+namespace sanhok.game.protocol;
 
 table ClientJoin {
     client_id: uint32;

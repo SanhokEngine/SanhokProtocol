@@ -1,0 +1,9 @@
+include "types.fbs";
+
+namespace sanhok.game.protocol;
+
+table PlayerZoneEnter {
+    zones: [Zone]
+}
+
+root_type PlayerZoneEnter;
