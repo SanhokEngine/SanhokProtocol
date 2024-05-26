@@ -1,9 +1,8 @@
-include "types.fbs";
-
 namespace sanhok.game.protocol;
 
 table PlayerZoneExit {
-    zones: [Zone]
+    zone_id: uint32;
+    zone_multicast_address: string;
 }
 
 root_type PlayerZoneExit;
