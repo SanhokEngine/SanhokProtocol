@@ -2,6 +2,7 @@ include "client_join.fbs";
 include "client_leave.fbs";
 include "player_equipment.fbs";
 include "player_movement.fbs";
+include "player_spawn.fbs";
 
 namespace sanhok.game.protocol;
 
@@ -10,6 +11,7 @@ union ProtocolType {
     ClientLeave,
     PlayerEquipment,
     PlayerMovement,
+    PlayerSpawn
 }
 
 table Protocol {

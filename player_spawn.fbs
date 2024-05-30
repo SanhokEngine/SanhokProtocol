@@ -1,0 +1,10 @@
+include "typs.fbs";
+
+namespace sanhok.game.protocol;
+
+table PlayerSpawn {
+    client_id: uint32;
+    position: Vector3;
+}
+
+root_type PlayerSpawn;
