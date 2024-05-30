@@ -1,4 +1,4 @@
-include "typs.fbs";
+include "types.fbs";
 
 namespace sanhok.game.protocol;
 
